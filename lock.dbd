@@ -1,0 +1,9 @@
+$onlyIf[$guildID!=;]
+$onlyBotPerms[managechannels;Eu não tenho a permissão de Gerenciar Canais!, sem ela eu não posso trancar o canal!]
+$nomention
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$title[Lock]
+$description[:white_check_mark:Canal Bloqueiado Por $username]
+$onlyAdmin[Você não pode usar este comando! Apenas para admins!]
+$suppressErrors[Ouve algum erro]
+$cooldown[5s;]
